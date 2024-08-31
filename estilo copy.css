@@ -1,0 +1,92 @@
+/* --------------------------- Layout --------------------------- */
+.capa1{height: 400px; width: 100%; margin-top: 70px;}
+.divResumo{margin-top: 310px;}
+/* --------------------- Barra de Navegação --------------------- */
+.navbar-custom{height: 50px;}
+.img-custom{height: 45px; width: 120px; margin-top: 2px;}
+
+/* --------------------- Capa --------------------- */
+.titulo{margin-left: 100px; color: white;}
+.subtitulo{margin-left: 100px; color: white; font-size: 50px;}
+.resumo{color: white; font-size: 26px;}
+.capa{margin-top: 50px;}
+.img-capa{height: 100%; width: 100%; position: fixed;}
+
+/* --------------------- Botões --------------------- */
+
+
+/* --------------------- Seção de Conteudo --------------------- */
+.intro{margin-top: 100px; margin-bottom: 50px;}
+.box{background: white; width: 100%; color: black; opacity: 0.8;}
+.img_noticia{height: 400px; width: 700px;}
+/* --------------------- Seção de Rodapé --------------------- */
+
+
+/* ============================ Tipografia ============================ */
+
+/* --------------------- Media Queries --------------------- */
+@media screen and (max-width: 767px)
+	{
+	.titulo{font-size: 40px;}
+	.resumo{font-size: 26px;}
+	.subtitulo{font-size: 30px;}
+	.video{width: 400px;}
+	.divResumo{margin-top: 0px;}
+	.intro{margin-bottom: 30px;}
+	}
+
+@media screen and (min-width: 768px)
+	{
+	.titulo{font-size: 50px;}
+	.resumo{font-size: 26px;}
+	.subtitulo{font-size: 35px;}
+	.divResumo{margin-top: 0px;}
+	.intro{margin-top: 100px; margin-bottom: 50px;}
+	}
+
+/* md */
+@media screen and (min-width: 992px)
+	{
+	.titulo{font-size: 50px;}
+	.resumo{font-size: 20px;}
+	.subtitulo{font-size: 35px;}
+	.divResumo{margin-top: 210px;}
+	.intro{margin-top: 100px; margin-bottom: 50px;}
+	}
+
+@media screen and (min-width: 992px)
+	{
+	.titulo{font-size: 50px;}
+	.resumo{font-size: 20px;}
+	.subtitulo{font-size: 35px;}
+	.divResumo{margin-top: 210px;}
+	.intro{margin-top: 100px; margin-bottom: 50px;}
+	}
+
+@media screen and (min-width: 1140px)
+{
+.titulo{font-size: 60px;}
+.resumo{font-size: 24px;}
+.subtitulo{font-size: 40px;}
+.divResumo{margin-top: 270px;}
+.intro{margin-top: 100px; margin-bottom: 50px;}
+}
+
+/* lg */
+@media screen and (min-width: 1280px)
+	{
+	.titulo{font-size: 70px;}
+	.resumo{font-size: 26px;}
+	.subtitulo{font-size: 50px;}
+	.divResumo{margin-top: 310px;}
+	}
+
+@media screen and (min-width: 1500px)
+	{
+	.divResumo{margin-top: 380px;}
+	}
+
+@media screen and (min-width: 1700px)
+	{
+	.divResumo{margin-top: 460px;}
+	}

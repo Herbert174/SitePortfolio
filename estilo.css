@@ -1,0 +1,168 @@
+/* --------------------------- Layout --------------------------- */
+.capa1{height: 400px; width: 100%; margin-top: 70px;}
+.divResumo{margin-top: 310px;}
+/* --------------------- Barra de Navegação --------------------- */
+.navbar-custom{height: 50px;}
+.img-custom{height: 45px; width: 60px; margin-top: 2px;}
+
+/* --------------------- Capa --------------------- */
+.titulo{margin-left: 100px; color: white;}
+.subtitulo{margin-left: 100px; color: white; font-size: 50px;}
+.resumo{color: white; font-size: 26px;}
+.capa{margin-top: 50px;}
+.img-capa{height: 100%; width: 100%; position: fixed;}
+
+/* --------------------- Botões --------------------- */
+
+
+/* --------------------- Seção de Conteudo --------------------- */
+.intro{margin-top: 100px; margin-bottom: 50px;}
+.box{background: white; width: 100%; color: black; opacity: 0.8;}
+.img_noticia{height: 400px; width: 700px;}
+/* --------------------- Seção de Rodapé --------------------- */
+
+
+/* ============================ Tipografia ============================ */
+
+/* --------------------- Media Queries --------------------- */
+@media screen and (max-width: 767px)
+	{
+	.titulo{font-size: 25px; margin-left: 20px;}
+	.resumo{font-size: 14px;}
+	.subtitulo{font-size: 20px; margin-left: 20px;}
+	.divResumo{margin-top: 110px;}
+	.intro{margin-top: 30px; margin-bottom: 50px;}
+	.box h2{font-size: 27px;}
+	.box p{font-size: 11px;}
+	.box a{font-size: 11px;}
+	}
+
+/* 170% Tela 1366 x 768 */
+@media screen and (min-width: 796px)
+	{
+	.titulo{font-size: 30px; margin-left: 30px;}
+	.resumo{font-size: 16px;}
+	.subtitulo{font-size: 25px; margin-left: 30px;}
+	.divResumo{margin-top: 100px;}
+	.intro{margin-top: 40px; margin-bottom: 50px;}
+	.box h2{font-size: 27px;}
+	.box p{font-size: 11px;}
+	.box a{font-size: 11px;}
+	}
+
+/* 160% Tela 1366 x 768 */
+@media screen and (min-width: 865px)
+	{
+	.titulo{font-size: 35px; margin-left: 40px;}
+	.resumo{font-size: 18px;}
+	.subtitulo{font-size: 30px; margin-left: 40px;}
+	.divResumo{margin-top: 100px;}
+	.intro{margin-top: 50px; margin-bottom: 50px;}
+	.box h2{font-size: 28px;}
+	.box p{font-size: 12px;}
+	.box a{font-size: 12px;}
+	}
+
+/* 150% Tela 1366 x 768 */
+@media screen and (min-width: 910px)
+	{
+	.titulo{font-size: 40px; margin-left: 50px;}
+	.resumo{font-size: 20px;}
+	.subtitulo{font-size: 35px; margin-left: 50px;}
+	.divResumo{margin-top: 100px;}
+	.intro{margin-top: 50px; margin-bottom: 50px;}
+	.box h2{font-size: 28px;}
+	.box p{font-size: 12px;}
+	.box a{font-size: 12px;}
+	}
+
+/* 140% Tela 1366 x 768 */
+@media screen and (min-width: 978px)
+	{
+	.titulo{font-size: 45px; margin-left: 60px;}
+	.resumo{font-size: 20px;}
+	.subtitulo{font-size: 30px; margin-left: 60px;}
+	.divResumo{margin-top: 130px;}
+	.intro{margin-top: 60px; margin-bottom: 50px;}
+	.box h2{font-size: 30px;}
+	.box p{font-size: 12px;}
+	.box a{font-size: 12px;}
+	}
+
+/* 130% Tela 1366 x 768 */
+@media screen and (min-width: 1047px)
+	{
+	.titulo{font-size: 50px; margin-left: 70px;}
+	.resumo{font-size: 18px;}
+	.subtitulo{font-size: 35px; margin-left: 70px;}
+	.divResumo{margin-top: 230px;}
+	.intro{margin-top: 70px; margin-bottom: 50px;}
+	.box h2{font-size: 30px;}
+	.box p{font-size: 12px;}
+	.box a{font-size: 12px;}
+	}
+
+/* 120% Tela 1366 x 768 */
+@media screen and (min-width: 1138px)
+	{
+	.titulo{font-size: 55px; margin-left: 80px;}
+	.resumo{font-size: 20px;}
+	.subtitulo{font-size: 35px; margin-left: 80px;}
+	.divResumo{margin-top: 250px;}
+	.intro{margin-top: 80px; margin-bottom: 70px;}
+	.box h2{font-size: 32px;}
+	.box p{font-size: 14px;}
+	.box a{font-size: 14px;}
+	}
+
+/* 110% Tela 1366 x 768 */
+@media screen and (min-width: 1252px)
+	{
+	.titulo{font-size: 60px; margin-left: 90px;}
+	.resumo{font-size: 22px;}
+	.subtitulo{font-size: 40px; margin-left: 90px;}
+	.divResumo{margin-top: 270px;}
+	.intro{margin-top: 90px; margin-bottom: 60px;}
+	.box h2{font-size: 36px;}
+	.box p{font-size: 16px;}
+	.box a{font-size: 16px;}
+	}
+
+/* 100% Tela 1366 x 768 */
+@media screen and (min-width: 1366px)
+	{
+	.titulo{font-size: 70px; margin-left: 100px;}
+	.resumo{font-size: 26px;}
+	.subtitulo{font-size: 50px; margin-left: 100px;}
+	.divResumo{margin-top: 310px;}
+	.intro{margin-top: 100px; margin-bottom: 50px;}
+	.box h2{font-size: 38px;}
+	.box p{font-size: 16px;}
+	.box a{font-size: 16px;}
+	}
+
+/* 90% Tela 1366 x 768 */
+@media screen and (min-width: 1525px)
+	{
+	.titulo{font-size: 80px; margin-left: 110px;}
+	.resumo{font-size: 28px;}
+	.subtitulo{font-size: 60px; margin-left: 110px;}
+	.divResumo{margin-top: 370px;}
+	.intro{margin-top: 110px; margin-bottom: 50px;}
+	.box h2{font-size: 40px;}
+	.box p{font-size: 18px;}
+	.box a{font-size: 18px;}
+	}
+
+/* 80% Tela 1366 x 768 */
+@media screen and (min-width: 1707px)
+	{
+	.titulo{font-size: 90px; margin-left: 120px;}
+	.resumo{font-size: 30px;}
+	.subtitulo{font-size: 70px; margin-left: 120px;}
+	.divResumo{margin-top: 420px;}
+	.intro{margin-top: 120px; margin-bottom: 50px;}
+	.box h2{font-size: 45px;}
+	.box p{font-size: 20px;}
+	.box a{font-size: 20px;}
+	}
