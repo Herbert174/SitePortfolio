@@ -35,6 +35,7 @@
 	.box h2{font-size: 27px;}
 	.box p{font-size: 11px;}
 	.box a{font-size: 11px;}
+	.img_noticia{height: 250px; width: 700px;}
 	}
 
 /* 170% Tela 1366 x 768 */
@@ -48,6 +49,7 @@
 	.box h2{font-size: 27px;}
 	.box p{font-size: 11px;}
 	.box a{font-size: 11px;}
+	.img_noticia{height: 400px; width: 700px;}
 	}
 
 /* 160% Tela 1366 x 768 */
